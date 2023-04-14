@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lagn="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" src="styles.css">
+  <title>Formulary</title>
+</head>
+<body>
+  <h1 id="title">FreeCodeCamp - Huanan's Form</h1>
+  <p id="description">Huanan's formulary </p>
+  <form id="survey-form">
+    <label id="name-label">Name: <input id="name" type="text" placeholder="enter your name" required></label>
+    <label id="email-label">Email: <input id="email" type="email" placeholder="enter your email" required></label>
+    <label id="number-label">Enter a number: <input id="number" type="number" min=0 max=120 placeholder="enter a number between 0-120"required></label>
+    <select id="dropdown">
+      <option valye="">select one</option>
+      <option value="1">Option 1</option>
+      <option value="2">Option 2</option>
+    </select>
+    <label><input type="radio" value="radio-option" name="radio-option"></label>
+    <label><input type="radio" value="radio-option" name="radio-option"></label>
+    <label for="">Fron-end<input type="checkbox" value="front-dev"/></label>
+    <label for="terms-and-conditions">Back-end<input type="checkbox" value="back-dev"/></label>
+    <label for="terms-and-conditions">Full-stack<input type="checkbox" value="fullstack-dev"/></label>
+    <label>Test<textarea></textarea></label>
+    <input id="submit" type="submit" value="submit">
+  </form>
+</body>
+</html>
